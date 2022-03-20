@@ -1,20 +1,20 @@
-package ed.arturo;
+package ed.pedro;
 
-public class Persona {
+public class Alumne {
 	
 	
-	public String n;
-	public String c;
-	public int a;
-	public String cl;
+	public String nom;
+	public String cognom;
+	public int any;
+	public String cicleFormatiu;
 	
 	@Override
 	public String toString() {
 		
-		return  "n = " + n + System.lineSeparator() +
-				"c = " + c + System.lineSeparator() +
-				"a = " + a + System.lineSeparator() +
-				"cl = " + cl;
+		return  "n = " + nom + System.lineSeparator() +
+				"c = " + cognom + System.lineSeparator() +
+				"a = " + any + System.lineSeparator() +
+				"cl = " + cicleFormatiu;
 				
 		
 	}
